@@ -1,0 +1,83 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+
+body {
+  background-color: #393E46;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #4ecc4e;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #cfd3c9;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #EEEEEE;
+  font-size: 1rem;
+  font-family: "Patrick Hand", serif;
+}
+
+footer a {
+  color: #d0f115;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.dice p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.refresh-button {
+  font-family: "Delius Swash Caps", serif;
+  display: block;
+  margin: 30px auto;
+  background-color: #8fbb28;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-button:hover {
+  background-color: #0056b3;
+}
